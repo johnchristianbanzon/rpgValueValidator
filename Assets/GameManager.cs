@@ -21,5 +21,10 @@ namespace DefaultNamespace
         {
             return _characters.First(character => character.EnumCharacter == enumCharacter);
         }
+
+        public static void AttackCharacter(CharacterBattleView attackerView, CharacterBattleView targetView)
+        {
+            targetView.ReceiveDamage(attackerView.GetAttackDamage());
+        }
     }
 }

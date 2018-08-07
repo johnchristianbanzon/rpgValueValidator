@@ -21,6 +21,11 @@
             Mdef = mdef;
             EnumSkill = enumSkill;
         }
+
+        public CharacterState()
+        {
+            
+        }
     }
 }
 
